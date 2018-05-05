@@ -1,0 +1,24 @@
+{
+  "name": "amo.gl",
+  "version": "0.0.1",
+  "description": "toolkit for native webgl ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/guoweish/amo.gl.git"
+  },
+  "keywords": [
+    "glsl",
+    "shader",
+    "webgl",
+    "glslify"
+  ],
+  "author": "guowei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guoweish/amo.gl/issues"
+  }
+}
