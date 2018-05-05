@@ -1,6 +1,6 @@
 {
   "name": "amo.gl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "toolkit for native webgl ",
   "main": "index.js",
   "scripts": {
