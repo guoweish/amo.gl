@@ -740,5 +740,18 @@ var Vector4 = function(opt_src) {
   this.elements = v;
 }
 
+/**
+ * Constructor of Vector4
+ * If opt_src is specified, new vector is initialized by opt_src.
+ * @param opt_src source vector(option)
+ */
+var Vector2 = function(opt_src) {
+  var v = new Float32Array(2);
+  if (opt_src && typeof opt_src === 'object') {
+    v[0] = opt_src[0]; v[1] = opt_src[1]; 
+  } 
+  this.elements = v;
+}
+
 // module.exports = Matrix4;
-module.exports = { Matrix4, Vector4, Vector3 };
+module.exports = { Matrix4, Vector4, Vector3, Vector2 };
